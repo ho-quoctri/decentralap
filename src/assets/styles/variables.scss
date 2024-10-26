@@ -1,0 +1,25 @@
+:root {
+  // font family
+  --font-family: anuphan, sans-serif;
+
+  // colors
+  --color-white: #ffffff;
+
+  --color-gray-100: #FCFCFD;
+  --color-gray-200: #C0C0C9;
+
+  --color-blue-100: #97CFFD;
+  --color-blue-200: #4EAEFD;
+  --color-blue-300: #313856;
+  --color-blue-800: #101423;
+  --color-blue-900: #0B0E18;
+}
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
